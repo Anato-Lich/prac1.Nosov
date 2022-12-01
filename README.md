@@ -29,6 +29,7 @@ from torch.utils.tensorboard import SummaryWriter
 В процессе работы создается папка logs/model, на GoogleDrive не сохраняется. 
 
 Суммарно модель обучалась около 70 эпох, несколько десятков были обучены с 
+
 criterion = torch.nn.CrossEntropyLoss(torch.Tensor([1, 1.3, 1, 1, 1, 1, 1, 1, 1]).to(device))
 
 
